@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 const SUPABASE_URL = 'https://ifcqzgwassoqtrefkinm.supabase.co'
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlmY3F6Z3dhc3NvcXRyZWZraW5tIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgzNDE3MTYsImV4cCI6MjA4MzkxNzcxNn0.8uOt18qIhf-r8q62e1WYTnL6rl6TxBozux3qDM90yiU'
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlmY3F6Z3dhc3NvcXRyZWZraW5tIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgzNDE3MTYsImV4cCI6MjA4MzkxNzcxNn0.8uOt18qIhf-r8q62e1WYTnL2rl6TxBozux3qDM90yiU'
 
 async function query(table, options = {}) {
   let url = `${SUPABASE_URL}/rest/v1/${table}?`
